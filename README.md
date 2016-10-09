@@ -7,6 +7,7 @@ just another repository
 ### init repository and network
 
     $git init
+    $git remote add origin git@github.com:techromas/hello-world.git
     
 
 ### pull repository
@@ -20,7 +21,13 @@ just another repository
     $git commit -m "comment"
     $git push origin master
 
+### what is the address of the remote now
 
+    $git remote -v
+    
+or
+
+    $git config --get remote.origin.url
 
 ## WebGL
 
