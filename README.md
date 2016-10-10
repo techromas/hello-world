@@ -29,6 +29,10 @@ or
 
     $git config --get remote.origin.url
 
+### change the remote url
+
+    $git remote set-url origin https://github.com/techromas/hello-world.git
+
 ## WebGL
 
 study note about webgl. [WebGL_memo](WebGL/memo.md)
