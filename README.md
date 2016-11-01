@@ -4,6 +4,16 @@ just another repository
 
 ## cheet sheet
 
+### what is my name & what is my e-mail address
+
+    $git config --get user.name
+    $git config --get user.email
+
+### change my name & change my e-mail address
+
+    $git config --global user.name "romas"
+    $git config --global user.email foo.bar@hoge.hoge
+
 ### init repository and network
 
     $git init
