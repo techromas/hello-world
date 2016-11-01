@@ -47,7 +47,7 @@ or
 
 ### make and chage branch
 
-    $git branch -b hoge
+    $git checkout -b hoge
 
 ## WebGL
 
