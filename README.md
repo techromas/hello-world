@@ -33,6 +33,22 @@ or
 
     $git remote set-url origin https://github.com/techromas/hello-world.git
 
+### make branch
+
+    $git branch hoge
+    
+### what branch now I am in
+
+    $git branch
+
+### change branch
+
+    $git checkout hoge
+
+### make and chage branch
+
+    $git branch -b hoge
+
 ## WebGL
 
 study note about webgl. [WebGL_memo](WebGL/memo.md)
