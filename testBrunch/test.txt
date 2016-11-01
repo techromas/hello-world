@@ -1,7 +1,3 @@
 test brunch master
-<<<<<<< HEAD
-write in master branch
-=======
 write in test branch
->>>>>>> test
 
