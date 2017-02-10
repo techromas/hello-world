@@ -1,63 +1,73 @@
 # hello-world
-just another repository
 
+githubへのHello World!!  
+メモ書きのようなもの
 
 ## cheet sheet
 
-### what is my name & what is my e-mail address
-
+### 現在の自分の名前とメールアドレスを確認
+    
     $git config --get user.name
     $git config --get user.email
 
-### change my name & change my e-mail address
+### 自分の名前とメールアドレスをromasとfoo.bar@hoge.hogeとして設定
 
-    $git config --global user.name "romas"
+    $git config --global user.name "romas"
     $git config --global user.email foo.bar@hoge.hoge
 
-### init repository and network
-
+### リポジトリを作成してリモートを設定する
+    
     $git init
     $git remote add origin git@github.com:techromas/hello-world.git
     
-
-### pull repository
-
+### リポジトリをpullする
+    
     $git fetch
     $git merge --allow-unrelated-histories origin/master
 
-### add to repository
+``--allow-unrelated-histories``は必要に応じて書く
+
+### リポジトリにファイルを追加する
 
     $git add -A
     $git commit -m "comment"
     $git push origin master
 
-### what is the address of the remote now
+### 今のリモートリポジトリの場所を表示する
 
-    $git remote -v
+    $git remote -v
     
 or
 
     $git config --get remote.origin.url
 
-### change the remote url
-
+### リモートリポジトリのURLを変更する
+    
     $git remote set-url origin https://github.com/techromas/hello-world.git
 
-### make branch
-
+### hogeと言う名前のブランチを作る
+    
     $git branch hoge
     
-### what branch now I am in
-
+### 自分が現在居るブランチを表示
+    
     $git branch
 
-### change branch
+### ブランチをhogeブランチに移る
 
     $git checkout hoge
 
-### make and chage branch
+### 新規ブランチとしてhogeブランチを作成し移る
 
-    $git checkout -b hoge
+    $git checkout -b hoge
+
+### hogeブランチを消す
+
+    $git branch -d hoge
+
+### 存在する全てのブランチを表示
+
+    $git branch -a
 
 ## WebGL
 
