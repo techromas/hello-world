@@ -41,23 +41,25 @@ githubへのHello World!!
 ```
     $git remote -v
 ```
+
 or
+
 ```
     $git config --get remote.origin.url
 ```
 
 ### リモートリポジトリのURLを変更する
-```    
+```
     $git remote set-url origin https://github.com/techromas/hello-world.git
 ```
 
 ### hogeと言う名前のブランチを作る
-```    
+```
     $git branch hoge
 ```
 
 ### 自分が現在居るブランチを表示
-```    
+```
     $git branch
 ```
 
