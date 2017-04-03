@@ -83,6 +83,12 @@ or
     $git branch -a
 ```
 
+
+## pull request の作り方
+New pull request
+base 取り込む方
+compare 取り込まれる方
+
 ## WebGL
 
 study note about webgl. [WebGL_memo](WebGL/memo.md)
