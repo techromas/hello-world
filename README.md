@@ -1,7 +1,7 @@
 # hello-world
 
 githubへのHello World!!  
-メモ書きのようなもの
+メモ書きのようなもの! 
 
 ## cheet sheet
 
